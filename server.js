@@ -13,7 +13,7 @@ app.get('/', (req,res)=>{
 	res.sendFile(path.join(__dirname,'public','index.html'));
 });
 app.get('/app.js', (req,res)=>{
-	res.sendFile(path.join(__dirname,'public','script.js'));
+	res.sendFile(path.join(__dirname,'public','app.js'));
 })
 app.get('/style.css', (req,res)=>{
 	res.sendFile(path.join(__dirname,'public','style.css'));
